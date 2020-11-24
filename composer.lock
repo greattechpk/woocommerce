@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddeda3843bbb8fd35abf1cea951c47df",
+    "content-hash": "f8c1227cade24a0c6f590dd0d554e94e",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -47,16 +47,16 @@
         },
         {
             "name": "automattic/jetpack-constants",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-constants.git",
-                "reference": "9827a2f446b8c4faafaf1c740483031c073a381d"
+                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/9827a2f446b8c4faafaf1c740483031c073a381d",
-                "reference": "9827a2f446b8c4faafaf1c740483031c073a381d",
+                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/18f772daddc8be5df76c9f4a92e017a3c2569a5b",
+                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b",
                 "shasum": ""
             },
             "require-dev": {
@@ -75,9 +75,9 @@
             ],
             "description": "A wrapper for defining constants in a more testable way.",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-constants/tree/master"
+                "source": "https://github.com/Automattic/jetpack-constants/tree/v1.5.1"
             },
-            "time": "2020-08-13T14:33:09+00:00"
+            "time": "2020-10-28T19:00:31+00:00"
         },
         {
             "name": "composer/installers",
@@ -675,5 +675,5 @@
     "platform-overrides": {
         "php": "7.0"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
